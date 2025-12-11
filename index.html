@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portail des Outils EPS</title>
+    
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        h1 {
+            color: #007bff; 
+            margin-bottom: 30px;
+        }
+        .apps-container {
+            display: flex;
+            flex-wrap: wrap; /* Permet de passer à la ligne sur petits écrans */
+            justify-content: center;
+            gap: 30px; /* Espace entre les vignettes */
+            margin-top: 40px;
+        }
+        .app-link { 
+            text-decoration: none; 
+            color: #333;
+            width: 180px; /* Largeur fixe pour la vignette */
+            padding: 15px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+            transition: all 0.3s ease;
+        }
+        .app-link:hover {
+            transform: translateY(-5px); /* Monte légèrement au survol */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .app-link img {
+            width: 100px; 
+            height: 100px; 
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .app-link p {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 0;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mon Espace Numérique des Outils Pédagogiques EPS</h1>
+    <p>Cliquez sur l'application que vous souhaitez lancer.</p>
+
+    <div class="apps-container">
+
+        <a href="https://FlorianH91.github.io/StatEPS/" target="_blank" class="app-link">
+            <img src="images/icone-stateps.png" alt="Outil StatEPS pour la notation">
+            <p>📊 StatEPS</p>
+        </a>
+
+        <a href="https://FlorianH91.github.io/ChronoCO/" target="_blank" class="app-link">
+            <img src="images/icone-chrono.png" alt="Outil de Chronométrage">
+            <p>⏱️ ChronoCO</p>
+        </a>
+
+        <a href="https://FlorianH91.github.io/RelaisEPS/" target="_blank" class="app-link">
+            <img src="images/icone-relais.png" alt="Outil de Gestion des Relais">
+            <p>🏃 Relais EPS</p>
+        </a>
+
+        <a href="https://FlorianH91.github.io/DanseEPS/" target="_blank" class="app-link">
+            <img src="images/icone-danse.png" alt="Outil d'aide à l'évaluation en Danse">
+            <p>💃 Danse EPS</p>
+        </a>
+
+        <a href="https://FlorianH91.github.io/BadEPS/" target="_blank" class="app-link">
+            <img src="images/icone-bad.png" alt="Outil Badminton">
+            <p>🏸 BadEPS</p>
+        </a>
+        
+        <a href="https://FlorianH91.github.io/StratBadEPS/" target="_blank" class="app-link">
+            <img src="images/icone-stratbad.png" alt="Outil de Stratégie en Badminton">
+            <p>🧠 StratBadEPS</p>
+        </a>
+        
+    </div>
+    
+</body>
+</html>
